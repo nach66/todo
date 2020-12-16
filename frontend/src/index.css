@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'Indie_Flower';
+  src: local('Indie_Flower'), url(./fonts/Indie_Flower/IndieFlower-Regular.ttf) format('truetype');
+}
+*:root {
+  padding-top: 40px;
+}
+.row {
+  font-family: 'Indie_Flower';
+  letter-spacing: 2px;
+}
+body {
+  background-image: url('./note.jpg');
+  background-position: center;
+  background-size: auto;
+}
+
+.item {
+  font-size: large;
+  cursor: pointer;
+  display: grid;
+  margin-top: 5px;
+  grid-template-columns: 30px 1fr;
+}
+.done {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.icon-btn {
+  border-radius: 35px 355px 35px 355px/355px 35px 355px 35px;
+  background-color: transparent;
+  box-shadow: 1px 1px 1px 0.7px;
+  cursor: pointer;
+  padding: 4px;
+}
+.btn:hover {
+  transform: translateY(0.08rem);
+  box-shadow: 0.5px 0.3px 0px 0px;
+}
+.icon-btn-container {
+  display: inline-flex;
+}
+
+.mybtn{
+  width: 100%;
+  cursor: pointer;
+  font-size: large;
+  padding-top: 7px;
+  margin-top: 10px;
+  letter-spacing: 2px;
+  box-shadow: 2px 2px goldenrod;
+  border-radius: 55px 355px 55px 355px/355px 55px 355px 55px;
+}
+.mybtn:hover {
+  transform: translateY(0.1rem);
+  box-shadow: 0px 0px;
+}
