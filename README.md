@@ -1,5 +1,3 @@
-run the app:
-
 In the root directory of the application, run npm install.
 run cd frontend to change into the client directory.
 While in the client, run npm install again to install dependencies for the client side.
